@@ -1,0 +1,53 @@
+{
+  "name": "webpack-react-project",
+  "version": "0.0.0",
+  "description": "React project",
+  "main": "dist/index.html",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "mdbootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-newer": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev-append": "^0.1.6",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webpack": "^1.5.0",
+    "html-minifier": "^0.8.0",
+    "imagemin-pngquant": "^4.2.0",
+    "merge-stream": "^1.0.0",
+    "node-sass": "^3.3.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-dev-server": "^1.12.0",
+    "webpack-hot-middleware": "^2.5.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js --inline --hot",
+    "prod": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
